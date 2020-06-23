@@ -1,0 +1,45 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header-box {
+	background-color: #fadbd8;
+	text-align: center;
+	height: 148px;
+}
+
+.main-box {
+	background-color: #f1948a;
+}
+
+.main {
+	text-align: center;
+	height: 660px;
+}
+
+.aside-box {
+	background-color: #f5cba7;
+}
+
+.aside {
+	text-align: center;
+}
+
+.footer-box {
+	background-color: #fadbd8;
+	height: 128px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.aside {
+		height: 140px;
+	}
+
+	.footer-box {
+		height: 100px;
+	}
+}
