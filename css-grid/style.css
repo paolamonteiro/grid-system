@@ -2,10 +2,16 @@ html, body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	/* display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-areas: 
+	"header header" */
 }
 
 .container {
 	display: grid;
+	margin-left: 20%;
+	margin-right: 20%;
 	grid-template-columns: 3fr 1fr;
 	grid-template-rows: 160px 620px 160px;
 	row-gap: 10px;
